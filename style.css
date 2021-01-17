@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+} 
+body{
+	background-image: linear-gradient(#ff5722, #ffc107);
+	position: relative;
+	height: 100vh;
+	overflow:hidden;
+	font-family: sans-serif;
+} 
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+} 
+
+div {
+	height: 0px;
+	background-image: url('Silicon_valley_title.png');
+	background-size: 50% 50%;
+}
+.container{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+.container span{
+	color: white;
+	text-transform: uppercase;
+	display: block;
+}
+.text1{
+	font-size: 60px;
+	font-weight: 700px;
+	letter-spacing: 8px;
+	margin-bottom: -40px;
+	background-image linear-gradient(#ff5722,#ffc107);
+	position: relative;
+	animation: text 5s 1;
+}  
+.text2{
+	font-size: 30px;
+	color: #6ab04c;
+}
+
+@keyframes text {
+	0%{
+		background-image: linear-gradient(#ff5722,#ffc107);
+		margin-bottom: -40px;
+	}
+30%{
+	letter-spacing: 25px;
+	margin-bottom: -40px;
+}
+85%{
+	letter-spacing: 8px;
+	margin-bottom: -40px;
+} 
+} 
+
+
